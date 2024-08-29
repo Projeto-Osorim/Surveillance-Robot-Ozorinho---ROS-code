@@ -1,0 +1,8 @@
+background_color: 0.0, 0.0, 0.0
+fixed_frame: map
+
+# Adicione os displays necessários para visualizar o mapa
+displays:
+  - name: Map
+    type: OccupancyGrid
+    topic: /map
