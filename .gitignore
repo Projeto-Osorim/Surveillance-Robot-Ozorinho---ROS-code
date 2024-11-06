@@ -2,4 +2,5 @@
 .vscode/
 build/
 devel/
+yolo-Weights/
 .catkin_workspace

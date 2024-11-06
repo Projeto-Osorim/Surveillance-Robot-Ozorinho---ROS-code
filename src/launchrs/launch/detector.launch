@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="video_detector" type="detector.py" name="detector_node"/>
+
+</launch>

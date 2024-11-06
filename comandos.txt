@@ -1,0 +1,14 @@
+LIGAR KINECT
+roslaunch openni_launch openni.launch depth_registration:=true
+
+
+LiGAR MAPA
+roslaunch rtabmap_launch rtabmap.launch rtabmap_args:="--delete_db_on_start" rviz:=true
+
+
+LIGAR CONTROLE
+roslaunch launchrs controlarPeloControle.launch 
+
+
+LIGAR DETECÇÂO
+roslaunch launchrs detector.launch 
